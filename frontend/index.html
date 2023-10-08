@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  class="light-style layout-menu-fixed"
+  dir="ltr"
+  data-theme="theme-default"
+  data-assets-path="./assets/"
+  data-template="vertical-menu-template-free"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>42KL Cadet Analytics</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="./assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="./assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="./assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="./assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="./assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"> 42KL Performance Overview </h4>
+              
+              <!-- Row1 -->
+              <div class="card" style="height: 350px">
+                <h5 class="card-header">Cadet Overview</h5>
+                <div class="table-responsive text-nowrap" id="vertical-example">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Cadets</th>
+                        <th>Intra ID</th>
+                        <th>Level</th>
+                        <th>Blackhole Left</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/bd9cbbe60fd95b403df1eb6f0da1c6e1/medium_zyeoh.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Zi Shen</strong></td>
+                        <td><a href="https://profile.intra.42.fr/users/zyeoh" target="_blank">zyeoh</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-primary me-1">30</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/17132b39dd781826de7ffb032fcf27a6/medium_gjun-wei.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Geuan JW</strong></td>
+                        <td><a href="https://profile.intra.42.fr/users/gjun-wei" target="_blank">gjun-wei</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-primary me-1">30</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/941952dd6e42b70b1c7ec068c2afc35f/medium_jowong.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Joshua Yong Zhen</strong></td>
+                        <td><a href="	https://profile.intra.42.fr/users/jowong" target="_blank">jowong</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-primary me-1">24</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/5c7e48fa16409e2883e5c925b9f4b9f3/medium_mehong.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meng Rae</strong></td>
+                        <td><a href="	https://profile.intra.42.fr/users/mehong" target="_blank">mehong</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-warning me-1">14</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/ffed2342c67301047e55c87c5ac85fb8/medium_dseerala.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Deneshwaran raj</strong></td>
+                        <td><a href="	https://profile.intra.42.fr/users/dseerala" target="_blank">dseerala</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-warning me-1">11</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/f7190c6821581849b3efca8991ac1afe/medium_nchok.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Nelson Vui Kian</strong></td>
+                        <td><a href="https://profile.intra.42.fr/users/nchok" target="_blank">nchok</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-danger me-1">3</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      <!--Cadet-->
+                      <tr>
+                        <td><img src="https://cdn.intra.42.fr/users/4147c6e83ad1c0a211ee455be02fd6e9/medium_abin-ach.jpg" alt="Avatar" class="avatar avatar-xs rounded-circle" /><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>	Adam Fansuri</strong></td>
+                        <td><a href="https://profile.intra.42.fr/users/abin-ach" target="_blank">abin-ach</a></td>
+                        <td>1.05</td>
+                        <td><span class="badge bg-label-danger me-1">1</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-plus-circle me-1"></i> Add Blackhole Days</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="bx bx-edit-alt me-1"></i> Remarks</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!--Cadet-->
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!--/ Row1 -->
+            <div class="content-backdrop fade"></div>
+          </div>
+          
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Row2 -->
+            <div class="container-xxl flex-grow-1 container-p-x">
+              <div class="row">
+                <!-- Row2.1 -->
+                <div class="col-md-6 col-sm-12">
+                  <div class="card overflow-hidden mb-4" style="height: 300px">
+                    <h5 class="card-header">Average days to complete project</h5>
+                    <div class="card-body" id="horizontal-example">
+                      <img src="./assets/img/elements/barchart.png" alt="barchart" />
+                    </div>
+                  </div>
+                </div>
+                <!--/ Row2.1 -->
+
+                <!-- Row2.2 -->
+                <div class="col-md-4 col-sm-12">
+                  <div class="card" style="height: 300px">
+                    <h5 class="card-header">Blackhole overview</h5>
+                    <div class="card-body d-flex align-items-center justify-content-center" id="horizontal-example" style="padding: 10px;">
+                      <img src="./assets/img/elements/blackhole-overview.png" style="width: 100%;" alt="piechart" />
+                    </div>
+                  </div>
+                </div>
+                <!--/ Row2.2 -->
+
+                <!-- Row2.3 -->
+                <div class="col-md-2 col-sm-12">
+                  <div class="card" style="height: 175px">
+                    <h5 class="card-header">Past 14 days<br>user activity</h5>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                      <h2 class="card-title text-nowrap mb-1">257/342</h2>
+                      <medium class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +13.42%</medium>
+                    </div>
+                  </div>
+                  <div class="card" style="margin-top: 1rem; height: 100px;">
+                    <h5 class="card-header">Dropoff Rate</h5>
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <div class="d-flex align-items-center mb-2">
+                            <h2 class="card-title text-nowrap mr-2">4.2%</h2>
+                            <medium class="text-success fw-semibold"><i class="bx bx-down-arrow-alt"></i> -10.42%</medium>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!--/ Row2.3 -->
+
+              </div>
+        </div>
+        <!-- / Layout page -->
+      </div>
+
+      <!-- Overlay -->
+      <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <!-- / Layout wrapper -->
+
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="./assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="./assets/vendor/libs/popper/popper.js"></script>
+    <script src="./assets/vendor/js/bootstrap.js"></script>
+    <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="./assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+   <!-- Vendors JS -->
+   <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="./assets/js/extended-ui-perfect-scrollbar.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    
+    <script>
+      function fetchData(callback) {
+          const script = document.createElement('script');
+          script.src = 'https://api.intra.42.fr/v2/campus/34/users?per_page=5&page=2&access_token=7269e9bc842aaa116936f0d5f2293c3f577fec8f53c5f1343e96bb46e495a5d4&callback=myCallbackFunction';
+          document.body.appendChild(script);
+
+          window.myCallbackFunction = function(data) {
+              callback(data);
+              document.body.removeChild(script);
+          };
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+          const cadetsTableBody = document.getElementById('cadetsTableBody');
+
+          fetchData(function(data) {
+              data.forEach(cadet => {
+                  const newRow = document.createElement('div');
+                  newRow.classList.add('row');
+                  newRow.innerHTML = `
+                      <div class="col-md-2">${cadet.login}</div>
+                      <div class="col-md-3">${cadet.displayname}</div>
+                      <div class="col-md-2">${cadet.email}</div>
+                      <div class="col-md-2">${cadet.pool_month}</div>
+                      <div class="col-md-3">${cadet.phone}</div>
+                  `;
+
+                  cadetsTableBody.appendChild(newRow);
+              });
+          });
+      });
+  </script>
+
+  </body>
+</html>
