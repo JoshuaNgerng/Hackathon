@@ -15,6 +15,8 @@ class get_42_api:
 		self.headers = {'Content-type':'application/json'}
 		self.connect = requests.post(f"https://api.intra.42.fr/oauth/token?grant_type=client_credentials&client_id={UID}&client_secret={SECRET}", 
 							   		headers=self.headers)
+		if (self.connect.status_code != requests.codes.ok):
+			raise Exception("request failed")
 		self.token = self.connect.json()['access_token']
 		self.names = None
 	
